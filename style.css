@@ -1,0 +1,139 @@
+body {
+    margin: 0px;
+    height: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+
+#bg {
+    display: flex;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    filter: blur();
+    resize: both;
+    flex-flow: column;
+}
+
+
+
+.frm {
+    padding-left: 40%;
+    margin-top: 259px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+
+}
+
+.container-fluid {
+    size: 100px;
+}
+
+#usrn {
+    size-adjust: inherit;
+    color: yellow;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    border-style: solid;
+}
+
+.textfld {
+    font-size: 25px;
+    border-radius: 20px;
+    font-style: italic;
+    padding-right: 209px;
+    border: solid;
+    border-color: deepskyblue;
+    padding-left: 10px;
+    margin: 15;
+}
+
+.psswrd {
+    font-size: 30px;
+    font-style: italic;
+    color: yellow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-style: solid;
+}
+
+.heading_id {
+    color: aqua;
+}
+
+.bodyclass {
+    background-color: orange;
+}
+
+.anc {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+
+
+.img {
+    width: 800px;
+    margin: 20px;
+}
+
+
+.btn {
+    color: #fefdff;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f92020;
+    position: fixed;
+    font-size: 30px;
+
+    margin-left: 150px;
+    border-radius: 10%;
+
+}
+
+.btn:hover {
+    background-color: black;
+    cursor: pointer;
+
+}
+
+
+.logo {
+    width: 14%;
+    height: 18%;
+    border-radius: 50%;
+    position: absolute;
+    top: 2%;
+    left: 1%;
+}
+
+.forgot {
+    position: fixed;
+    color: #00ff35;
+    margin-left: 129px;
+    font-size: 20px;
+}
+
+@media screen and (max-width:500px){
+    #bg{
+        width: 110vw;
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: center;
+    }
+    .frm{
+        padding-left: 10%;
+    }
+    .textfld{
+        width: 12vw;
+    }
+}
