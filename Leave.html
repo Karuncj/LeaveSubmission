@@ -14,56 +14,61 @@
         </div>
         <div id="frmbdy" class="frmbdy">
             <form>
-                    <ul>
+                <ul>
                     <label class="lab" id="name">NAME</label>
-                    <input type="text" class="txt" placeholder="Enter your name" required>
-                    </ul>
-                <ul>
-                <label class="lab" id="stid">STUDENT ID</label>
-                <input type="text" class="txt" placeholder="Enter student id" required>
-            </ul>
-            <ul>
-            <label class="lab" id="deplab">DEPARTMENT</label>
-                <select id="dep" class="dep" required>
-                    <option>COMPUTER SCIENCE</option>
-                    <option>MECHANICAL</option>
-                    <option>CIVIL</option>
-                    <option>ELECTRONICS AND COMMUNICATION</option>
-                    <option>ARTIFICIAL AND DATA SCIENCE</option>
-                </select></ul>
-                <ul>
-                <label class="lab">SEM AND BATCH</label>
-                <select id="sem" class="Sem">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                </select>
-                <select ID="BATCH" class="Btch">
-                    <option>A</option>
-                    <option>B</option>
-                </select></ul>
-                <ul>
-                <label class="lab">REASON FOR LEAVE</label>
-                <div class="rsn">
-                   <label class="rdio" for="r1"> <input type="radio" class="rdio" id="r1">BEREAVEMENT LEAVE</label>
-                    <label class="rdio" for="r2"><input type="radio" class="rdio" id="r2">MEDICAL LEAVE</label>
-                    <label class="rdio" for="r3"><input type="radio" class="rdio" id="r3">EMERGENCY LEAVE</label>
-                    <label class="rdio" for="r4"><input type="radio" class="rdio" id="r4">OTHER</label>
+                    <input type="text" class="txt" placeholder="Enter your name"  required>
                 </ul>
-                </div>
-                <div class="footer">
-                    <button type="button" id="prev" name="prev" class="btn">PREV</button>
-                    <button type="button" id="next" name="nxt" class="btn">NEXT</button>
-                </div>
-        </div>
+                <ul>
+                    <label class="lab" id="stid">STUDENT ID</label>
+                    <input type="text" class="txt" placeholder="Enter student id" required>
+                </ul>
+                <ul>
+                    <label class="lab" id="deplab">DEPARTMENT</label>
+                    <select id="dep" class="dep" required>
+                        <option>COMPUTER SCIENCE</option>
+                        <option>MECHANICAL</option>
+                        <option>CIVIL</option>
+                        <option>ELECTRONICS AND COMMUNICATION</option>
+                        <option>ARTIFICIAL AND DATA SCIENCE</option>
+                    </select>
+                </ul>
+                <ul>
+                    <label class="lab" id="semBtch">SEM AND BATCH</label>
+                    <select id="sem" class="Sem">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                    </select>
+                    <select ID="BATCH" class="Btch">
+                        <option>A</option>
+                        <option>B</option>
+                    </select>
+                </ul>
+                <ul>
+                    <label class="lab">REASON FOR LEAVE</label>
+                    <div class="rsn">
+                        <label class="rdio" for="r1"> <input type="radio" class="rdio" id="r1">BEREAVEMENT LEAVE</label>
+                        <label class="rdio" for="r2"><input type="radio" class="rdio" id="r2">MEDICAL LEAVE</label>
+                        <label class="rdio" for="r3"><input type="radio" class="rdio" id="r3">EMERGENCY LEAVE</label>
+                        <label class="rdio" for="r4"><input type="radio" class="rdio" id="r4">OTHER</label>
+                    </ul>
+                    <ul>
+                        <h4>If other specify the reason</h4>
+                       <textarea rows="8" cols="60" id="txtarea"></textarea>
+                    </ul>
         </form>
+        <div class="footer">
+            <button type="button" id="CANCEL" name="CANCEL" class="btn">CANCEL</button>
+            <button type="button" id="SUBMIT" name="SUBMIT" class="btn">SUBMIT</button>
+        </div>
     </div>
     </div>
+    
 </body>
 
 </html>

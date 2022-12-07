@@ -108,16 +108,17 @@
 .frmbdy{
     display: flex;
     border: outset;
-    padding-block: 25px;
+    padding-block: 26px;
     border-color: red;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    padding-left: 23vw;
+    padding-right: 18vw;
 }
-#prev{
+#CANCEL{
     vertical-align: middle;
     width: 49%;
 }
-#next{
+#SUBMIT{
     
     vertical-align: middle;
     width: 50%;
@@ -126,19 +127,6 @@
 .footer{
     background-color: #1eeb5dc9;
 }
-/* 
-#left{
-    display: flex;
-    flex-direction: column;
-    padding-left: 37vw;
-}
-
-#right{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-left: 21vw;
-}        */
 
 .btn{    
     background-color: #1eeb5dc9;
@@ -147,18 +135,58 @@
 }
 
 .txt{
-    padding-left: 25vw;
-}
-
-.lab{
-
+    text-align: -webkit-center;
+    padding-left: 15vw;
+    padding-right: 15vw;
 }
 
 #name{
-    padding-left: 1vw;
+    padding-left: 3vw;
+    padding-right: 2.6vw;
 }
 
 #stid{
     padding-left: 1vw;
-    padding-right: 2vw;
+    padding-right: 1.6vw;
+}
+
+#deplab{
+    padding-left: 0.5vw;
+    padding-right: 1.2vw;
+}
+
+#semBtch{
+    padding-right: 3vw;
+}
+
+.rsn{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1vw;
+}
+
+#r1{
+    margin-bottom: 12px;
+}
+
+#r2{
+    margin-bottom: 12px;
+}
+
+#r3{
+    margin-bottom: 12px;
+}
+
+#r4{
+    margin-bottom: 12px;
+}
+
+@media screen and (maxwidth:500px) {
+    .frmbdy {
+        height: 200px;
+        width: 10px;
+    }
+    .main{
+        height: 200px;
+    }
 }
