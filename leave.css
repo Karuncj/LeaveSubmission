@@ -117,7 +117,9 @@
 #CANCEL{
     vertical-align: middle;
     width: 49%;
+
 }
+
 #SUBMIT{
     
     vertical-align: middle;
@@ -132,6 +134,10 @@
     background-color: #1eeb5dc9;
     height: 34px;
     border: hidden;
+
+}
+.btn:hover{
+    cursor: pointer;
 }
 
 .txt{
@@ -181,12 +187,8 @@
     margin-bottom: 12px;
 }
 
-@media screen and (maxwidth:500px) {
-    .frmbdy {
-        height: 200px;
-        width: 10px;
-    }
-    .main{
-        height: 200px;
-    }
+@media screen and (max-width:500px){
+   .main{
+    height: 60px;
+   }
 }
